@@ -1,4 +1,3 @@
-// rootReducer.js
 import { combineReducers } from "@reduxjs/toolkit";
 import counterReducer from "./slices/counterSlice";
 import themeReducer from "./slices/themeSlice";

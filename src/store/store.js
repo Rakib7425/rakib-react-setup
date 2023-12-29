@@ -1,4 +1,3 @@
-// store.js
 import { configureStore } from "@reduxjs/toolkit";
 // import createSagaMiddleware from "redux-saga";
 import { persistStore, persistReducer } from "redux-persist";
@@ -12,7 +11,6 @@ import rootReducer from "./rootReducer";
 const persistConfig = {
 	key: "persist-demo",
 	storage,
-	// Add other configuration options as needed
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

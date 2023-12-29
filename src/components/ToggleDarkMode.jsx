@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setDark, setLight } from "../store/slices/themeSlice";
 
 const ToggleDarkMode = () => {
-	const currentTheme = useSelector((store) => store.theme.value);
+	const { currentTheme } = useSelector((store) => store.theme);
 	const dispatch = useDispatch();
 
 	const handleClick = () => {
