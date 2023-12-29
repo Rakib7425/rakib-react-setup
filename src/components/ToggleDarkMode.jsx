@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setDark, setLight } from "../store/slices/themeSlice";
+import { LuMoonStar, LuSunMoon } from "react-icons/lu";
 
 const ToggleDarkMode = () => {
 	const { currentTheme } = useSelector((store) => store.theme);
@@ -27,9 +28,16 @@ const ToggleDarkMode = () => {
 	return (
 		<button
 			onClick={handleClick}
-			className={"dark:bg-black dark:text-white bg-red-600 rounded-[100%] py-4 px-4"}
+			className={
+				"dark:bg-black dark:text-white bg-pink-700 rounded-full py-3 px-3 duration-500"
+			}
+			title='toggleTheme'
 		>
-			{currentTheme === "dark" ? "go-Light" : "go-Dark"}
+			{currentTheme !== "dark" ? (
+				<LuSunMoon size={21} color='white' />
+			) : (
+				<LuMoonStar size={20} />
+			)}
 		</button>
 	);
 };
