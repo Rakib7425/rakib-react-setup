@@ -16,8 +16,11 @@ const App = () => {
 	]);
 
 	return (
-		<section className='max-w-[1280px] mx-auto'>
-			<h1 className='  dark:text-white text-4xl'>Redux Toolkit with Persist</h1>
+		<section className='max-w-[1280px] mx-auto border dark:border-red-500 border-pink-600 pb-4'>
+			<h1 className=' dark:text-white text-2xl font-semibold md:text-4xl py-8 '>
+				Redux Toolkit with Persist
+			</h1>
+
 			<RouterProvider router={router} />
 			<ToggleDarkMode />
 		</section>
