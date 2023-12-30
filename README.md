@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Are you ready to take your React development to the next level? **Rakib React app** is not just another boilerplate – it's a comprehensive development environment that comes pre-configured with essential tools and features, including React, React Router v6, Redux Toolkit, Redux Persist, theme management, and more!
+Are you ready to take your React development to the next level? **Rakib React app** is not just another boilerplate – it's a comprehensive development environment that comes pre-configured with essential tools and features, including React,TailwindCSS, React Router v6, Redux Toolkit, Redux Persist, theme management, and more!
 
 ## Features
 
