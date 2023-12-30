@@ -1,15 +1,7 @@
 {
-  "name": "redux-persist-rakib",
-  "private": false,
-  "version": "0.0.5",
+  "name": "rakib-react-app",
+  "version": "0.0.1",
   "type": "module",
-  "main": "bin/index.js",
-  "bin": {
-    "redux-persist-rakib": "bin/index.js"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
