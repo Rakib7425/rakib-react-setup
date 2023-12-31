@@ -9,7 +9,7 @@ import rootReducer from "./rootReducer";
 // const sagaMiddleware = createSagaMiddleware();
 
 const persistConfig = {
-	key: "persist-demo",
+	key: "rakib-react",
 	storage,
 };
 
