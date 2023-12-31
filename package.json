@@ -33,5 +33,17 @@
     "vite": "^5.0.8"
   },
   "author": "https://github.com/Rakib7425",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "React",
+    "vite",
+    "react-router-dom",
+    "redux",
+    "redux-toolkit",
+    "redux-toolkit-persist",
+    "redux",
+    "tailwindcss",
+    "react-icons",
+    "rakib-react-app"
+  ]
 }
