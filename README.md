@@ -53,7 +53,7 @@ Ensure you have Node.js and Git installed on your machine before getting started
 2. Follow the prompts to give a name to your project and customize any other configuration options. For example:
 
     ```bash
-    ? Enter your new project's name: my-awesome-react-app
+    ? "Enter your new project's name:" my-awesome-react-app
     ```
 
     Answer the questions to tailor the setup to your preferences.
@@ -79,10 +79,16 @@ Ensure you have Node.js and Git installed on your machine before getting started
 5. Start your dev server:
 
     ```bash
-    yarn dev or npm run dev
+    npm run dev
     ```
 
-    Now you're ready to start building your React app!
+    OR
+
+    ```bash
+    yarn dev
+    ```
+
+Now you're ready to start building your React app!
 
 ## License
 
@@ -91,7 +97,5 @@ Rakib React app is released under the MIT License.
 ## Conclusion
 
 Supercharge your React development with Rakib React app. Experience the joy of building React applications without the hassle of configuration. Try it out today and elevate your development experience!
-
----
 
 Feel free to customize the content further based on the unique aspects and features of your project.
