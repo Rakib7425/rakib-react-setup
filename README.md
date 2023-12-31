@@ -59,7 +59,13 @@ Ensure you have Node.js and Git installed on your machine before getting started
 4. Install your dependencies:
 
     ```bash
-    yarn or npm install
+     npm install
+    ```
+
+    OR
+
+    ```bash
+    yarn
     ```
 
 5. Start your dev server:
