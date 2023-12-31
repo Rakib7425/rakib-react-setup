@@ -1,3 +1,11 @@
+## Installation
+
+```sh
+    npx rakib-react-app
+```
+
+##### This command will initiate the setup process for your new React app.
+
 # Supercharge Your React Development: Introducing Rakib React app
 
 ## Introduction
