@@ -33,7 +33,7 @@
     "vite": "^5.0.8"
   },
   "author": "https://github.com/Rakib7425",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "React",
     "vite",
