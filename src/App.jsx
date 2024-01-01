@@ -19,7 +19,10 @@ const App = () => {
 		<div className='dark:bg-indigo-950 h-screen bg-white duration-700 pb-5'>
 			<section className='max-w-[1280px] mx-auto border h-full dark:border-red-500 border-pink-600 pb-4'>
 				<h1 className=' dark:text-white text-2xl font-semibold md:text-4xl py-8 '>
-					Redux Toolkit with Persist
+					<span className='bg-gradient-to-tr from-blue-500 to-red-500 bg-clip-text text-transparent font-semibold animate-custom duration-200'>
+						Redux Rakib Fusion. <br />
+						(create-rakib-app)
+					</span>
 				</h1>
 
 				<p className='text-xl py-4 font-semi-bold text-blue-600'>
