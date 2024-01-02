@@ -48,5 +48,6 @@ body::-webkit-scrollbar-thumb {
 		rgba(145, 2, 210, 1) 79%,
 		rgb(229, 255, 0) 98%
 	);
+
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#70197a",endColorstr="#00d4ff",GradientType=1);
 }
